@@ -1,4 +1,4 @@
-# mimeish
+# mime-tools
 
 > Browser Compatible MIME Toolkit
 
@@ -7,7 +7,7 @@
 ## Lookup MIME type
 
 ```js
-import { lookup } from 'mimeish'
+import { lookup } from 'mime-tools'
 const filePath = lookup('file.txt')
 lookup.mime('file.txt') // text/plain
 ```
@@ -15,7 +15,7 @@ lookup.mime('file.txt') // text/plain
 ## Lookup extension
 
 ```js
-import { lookup } from 'mimeish'
+import { lookup } from 'mime-tools'
 const mimeType = 'text/plain'
 lookup.extension(mimeType) // txt
 ```

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { lookup } from '../src/Mimeish'
+import { lookup } from '../src/mime-tools'
 import mime from 'mime.json'
 
 describe('Lookup', () => {

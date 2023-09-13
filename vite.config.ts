@@ -1,13 +1,13 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   build: {
     outDir: "dist",
     lib: {
-      entry: "./src/Mimeish.ts",
-      name: "mimeish",
+      entry: "./src/mime-tools.ts",
+      name: "mime-tools",
       formats: ["es"],
-      fileName: "mimeish",
+      fileName: "mime-tools",
     },
   },
-});
+})
