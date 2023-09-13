@@ -1,4 +1,4 @@
-# mime-tools
+# @famac/mime-tools
 
 [![Build Status](https://travis-ci.org/FDVhuset-AS/mime-tools.svg?branch=main)](https://travis-ci.org/FDVhuset-AS/mime-tools)
 [![Coverage Status](https://coveralls.io/repos/github/FDVhuset-AS/mime-tools/badge.svg?branch=main)](https://coveralls.io/github/FDVhuset-AS/mime-tools?branch=main)
@@ -7,6 +7,10 @@
 > Browser Compatible MIME Toolkit
 
 # Geting started
+
+```sh
+yarn add @famac/mime-tools
+``````
 
 ## Lookup MIME type
 
